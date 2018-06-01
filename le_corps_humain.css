@@ -1,0 +1,100 @@
+* {
+	font-family: 'Arvo', serif;
+}
+
+body {
+	background-color: #edecec;
+
+}
+
+figure {
+	width: 300px;
+	margin: auto;
+	margin-top: 150px;
+	vertical-align: middle;
+}
+
+img {
+	float: left;
+}
+
+h1 {
+	font-family: 'Arvo', serif;
+	margin-top: 50px;
+	text-align: center;
+}
+
+#banniere {
+	text-align: right;
+	height: 150px;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+}
+
+#copy {
+	display: block;
+	font-weight: bold;
+	padding-top: 20px;
+	padding-right: 20px;
+}
+
+
+.cercle {
+	width: 40px;
+	height: 40px; 
+	background: grey; 
+	-moz-border-radius: 50px; 
+	-webkit-border-radius: 50px; 
+	border-radius: 50px;
+	opacity: 0.75;
+}
+
+.cercle:hover {
+	background: red;
+
+}
+
+#epaule {
+	position: absolute;
+	padding-top: 85px;
+	z-index: 55;
+
+}
+
+#bras {
+	position: absolute;
+	padding-top: 160px;
+	padding-left: 100px;
+
+}
+
+#poignet {
+	position: absolute;
+	margin-top: 220px;
+	margin-left: -5px;
+	z-index: 56;
+}
+
+#hanche {
+	position: absolute;
+	padding-top: 220px;
+	padding-left: 80px;
+	z-index: 51;
+}
+
+#genou {
+	position: absolute;
+	padding-top: 340px;
+	padding-left: 75px;
+}
+
+#pied {
+	position: absolute;
+	padding-top: 450px;
+	padding-left: 30px;
+}
+
+figcaption {
+	width: 350px;
+}
